@@ -1,0 +1,214 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(../recursos/fondos/fondo_pagina.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.btn_cerrar button{
+  display: block;
+  text-align: center;
+  align-content: center;
+  width: 80px;
+  height: 40px;
+  font-weight: bolder;
+  color: red;
+  margin-top: 10px;
+  margin-left: 45%;
+  margin-bottom: 5px;
+}
+
+.header{
+  width: 100%;
+  height: 40px;
+  background-color: #36639B;
+}
+
+.main{
+  position: relative;
+  display: inline-block;
+  margin-top: 30px;
+  padding-top: 0px;
+  margin: 0px auto;
+  width: 60%;
+  height: 480px;
+  background-color: #F7F0F5;
+  border-radius: 30px;
+  opacity: 0.9;
+}
+
+.titulo_usuario{
+  margin-left: 0px;
+  padding: 10px;
+  width: auto;
+  height: 20%;
+  background-color: #B4B8BE;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: blue;
+  position: relative;
+  text-align: center;
+  opacity: 1;
+}
+
+.usuarios_actuales {
+  display: inline-block;
+  width: 100%;
+  height: 50%;
+  background: #000;
+  margin: 10px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+footer{
+  font-size: 12px;
+  width: 100%;
+  height: 255px;
+  background-color: #1D3758;
+  color: white;
+  display: flex;
+  align-content: space-around;
+}
+
+.barra_datos_usuario{
+  display: inline-flex;
+  width: 90%;
+  text-align: center;
+  margin-left: 50px;
+  font-family: fantasy;
+}
+
+
+.contenido_datos_usuario{
+  display: inline-block;
+  width: 90%;
+  text-align: center;
+  margin-left: 50px;
+  font-family: fantasy;
+  background-color: #fff;
+}
+
+
+.lista_usuarios_actuales{
+  display: block;
+  width: 100%;
+  height: 55%;
+  background-color: #52DF55;
+  text-align: inherit;
+  border-radius: 30px;
+  align-items: center;
+  align-content: center;
+  overflow-y: scroll;
+  opacity: 1;
+}
+
+ul{
+  display: inline-flex;
+  width: 100%;
+  align-content: space-around;
+}
+
+ul:nth-child(odd){background: white;}
+ul:nth-child(even){background: #cae6d8;}
+
+
+.p_datos_usuario {
+  width: 80px;
+  display: inline-flex;
+  margin-left: 10px;
+  text-align: center;
+  margin: 25px;
+  margin-top: 5px;
+}
+
+.p_datos_bd{
+  margin: 52px;
+  margin-top: 2px;
+  text-align: center;
+}
+.p_datos_bd_nombre{
+  width: 80px;
+  margin: 50px;
+  margin-top: 2px;
+  text-align: center;
+}
+
+.a_foto_bd{
+  margin: 50px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: 80px;
+  margin-right: 90px;
+}
+
+.p_datos_usuario_foto{
+  margin: 50px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: 130px;
+  margin-right: 90px;
+}
+
+.p_edit_elim{
+  margin: 2px;
+  margin-top: 2px;
+  margin-left: 35px;
+  text-align: left;
+}
+
+
+.a_datos_bd{
+  margin: 2px;
+  margin-top: 2px;
+  margin-left: 19px;
+  text-align: left;
+}
+
+
+.alinear_redes_sociales{
+  display: flex;
+  flex-direction: column;
+  left: 64px;
+  padding: 8px;
+  width: 40%;
+  height: 240px;
+}
+
+.redes_sociales {
+  position: relative;
+  padding: 10px;
+  left: 80px;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.p_footer{ margin: 10px;}
+
+.pie_pagina{
+  position: relative;
+  width: 40%;
+  height: 140px;
+  padding: 80px 0px 0px 85px;
+  text-align: center;
+  left: 90px;
+}
+
+.btns{
+  width: 90px;
+  height: 30px;
+  margin-top: 30px;
+  margin-left: 20px;
+}

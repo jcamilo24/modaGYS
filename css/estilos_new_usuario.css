@@ -1,0 +1,224 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.new_usuario{
+  display: inline-flex;
+  margin-left: 35%;
+  margin-top: 90px;
+}
+
+.lbl_datos, .txb_datos{
+  width: 100%;
+}
+
+.lbl_datos p{
+  display: block;
+  margin: 10px;
+  height: 20px;
+}
+
+.txb_datos p{
+  padding-left: 15px;
+  display: block;
+  margin: 10px;
+  height: 20px;
+}
+
+body{
+  background-image: url(../recursos/fondos/fondo_pagina.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+input{
+  border-radius: 20px;
+  height: 25px;
+}
+
+.inp_btn{
+  margin: 30px;
+  width: 90px;
+  height: 45px;
+  display: inline-block;
+  text-align: center;
+  align-content: center;
+}
+
+.btns_formulario {
+  position: absolute;
+  display: inline-flex;
+  text-align: center;
+  align-content: center;
+  width: 50%;
+  height: 40px;
+  font-weight: bolder;
+  color: red;
+  margin-top: 240px;
+
+  margin-bottom: 5px;
+}
+
+.header{
+  width: 100%;
+  height: 40px;
+  background-color: #36639B;
+}
+
+.main{
+  position: relative;
+  display: flex;
+  margin-top: 30px;
+  padding-top: 0px;
+  margin: 0px auto;
+  width: 60%;
+  height: 480px;
+  background-color: #F7F0F5;
+  border-radius: 30px;
+  opacity: 0.9;
+}
+
+.titulo_usuario{
+  margin-left: 0px;
+  padding: 10px;
+  width: auto;
+  height: 20%;
+  background-color: #B4B8BE;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: blue;
+  position: relative;
+  text-align: center;
+  opacity: 1;
+}
+
+.usuarios_actuales {
+  display: inline-block;
+  width: 100%;
+  height: 50%;
+  background: #000;
+  margin: 10px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+footer{
+  font-size: 12px;
+  width: 100%;
+  height: 255px;
+  background-color: #1D3758;
+  color: white;
+  display: flex;
+  align-content: space-around;
+}
+
+.barra_datos_usuario{
+  display: inline-flex;
+  width: 90%;
+  text-align: center;
+  margin-left: 50px;
+  font-family: fantasy;
+}
+
+
+.contenido_datos_usuario{
+  display: inline-flex;
+  width: 90%;
+  text-align: center;
+  margin-left: 50px;
+  font-family: fantasy;
+  background-color: #fff;
+}
+
+
+.lista_usuarios_actuales{
+  display: block;
+  width: 100%;
+  height: 55%;
+  background-color: #52DF55;
+  text-align: inherit;
+  border-radius: 30px;
+  align-items: center;
+  align-content: center;
+  overflow-y: scroll;
+  opacity: 1;
+}
+
+ul{
+  display: inline-flex;
+  width: 100%;
+  align-content: space-around;
+}
+
+.p_datos_usuario {
+  width: 80px;
+  display: inline-flex;
+  margin-left: 10px;
+  text-align: center;
+  margin: 25px;
+  margin-top: 5px;
+}
+
+.p_datos_bd{
+  margin: 50px;
+  margin-top: 2px;
+  text-align: center;
+
+}
+
+.a_foto_bd, .p_datos_usuario_foto{
+  margin: 50px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: 30px;
+}
+
+.a_datos_bd{
+  margin: 20px;
+  margin-top: 2px;
+  margin-left: 10px;
+  text-align: right;
+}
+
+.alinear_redes_sociales{
+  display: flex;
+  flex-direction: column;
+  left: 64px;
+  padding: 8px;
+  width: 40%;
+  height: 240px;
+}
+
+.redes_sociales {
+  position: relative;
+  padding: 10px;
+  left: 80px;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.p_footer{ margin: 10px;}
+
+.pie_pagina{
+  position: relative;
+  width: 40%;
+  height: 140px;
+  padding: 80px 0px 0px 85px;
+  text-align: center;
+  left: 90px;
+}
+
+.btns{
+  width: 90px;
+  height: 30px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
